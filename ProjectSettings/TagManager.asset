@@ -7,8 +7,6 @@ TagManager:
   - 'Enemy '
   - Door
   - Bull
-  - startlimit
-  - finallimit
   layers:
   - Default
   - TransparentFX
