@@ -9,8 +9,6 @@ TagManager:
   - Bull
   - startlimit
   - finallimit
-  - starteleve
-  - finaleleve
   layers:
   - Default
   - TransparentFX
