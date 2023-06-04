@@ -5,6 +5,7 @@ using UnityEngine;
 public class IAEnemy : MonoBehaviour
 {
     float changer;
+    public SpriteRenderer Sr;
     private void Start()
     {
         changer = 1f;
@@ -13,15 +14,22 @@ public class IAEnemy : MonoBehaviour
     {
         gameObject.transform.Translate(changer * Time.deltaTime, 0, 0);
     }
+
+   
+
+
     private void OnTriggerEnter2D(Collider2D collisioner)
     {
         if (collisioner.gameObject.tag == "startlimit")
         {
             changer = 1f;
+            Sr.flipX = true;
+            
         }
         if (collisioner.gameObject.tag == "finallimit")
         {
             changer = -1f;
+            Sr.flipX = false;
         }
         if (collisioner.gameObject.tag == "specialskillthree")
         {
