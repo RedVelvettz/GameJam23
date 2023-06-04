@@ -12,6 +12,7 @@ TagManager:
   - starteleve
   - finaleleve
   - Invi
+  - Teleporter
   layers:
   - Default
   - TransparentFX
