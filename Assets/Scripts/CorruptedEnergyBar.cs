@@ -8,6 +8,7 @@ public class CorruptedEnergyBar : MonoBehaviour
     public Image corruptedBarImage;
     public Image energyBar;
     public float actualLife;
+    public GameObject vidarequisito;
     float maxLife;
     void Start()
     {
@@ -16,6 +17,8 @@ public class CorruptedEnergyBar : MonoBehaviour
     }
     void Update()
     {
+        vidarequisito.GetComponent<MovimientoProtagonista>().vidarequi = actualLife;
+
         corruptedBarImage.fillAmount = actualLife / maxLife;
         energyBar.fillAmount = actualLife / maxLife;
         if (corruptedBarImage.fillAmount > 0.95 && energyBar.fillAmount > 0.95)
