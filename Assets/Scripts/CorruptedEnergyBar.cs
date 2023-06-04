@@ -44,6 +44,6 @@ public class CorruptedEnergyBar : MonoBehaviour
                 }
             }
         }
-        print(corruptedBarImage.fillAmount);
+        //print(corruptedBarImage.fillAmount);
     }
 }
