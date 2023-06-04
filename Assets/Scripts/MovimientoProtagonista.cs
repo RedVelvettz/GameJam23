@@ -94,7 +94,23 @@ public class MovimientoProtagonista : MonoBehaviour
             rend.color = NormColor;
         }
         }
+        /////////////////////////////
+        if (vidarequi > 99)
+        {
+            if (Input.GetKey(KeyCode.Q))
+            {
+                transform.gameObject.tag = "Invi";
+                rend = GetComponent<SpriteRenderer>();
+                rend.color = InviColor;
 
+
+            }
+            else
+            {
+                rend = GetComponent<SpriteRenderer>();
+                rend.color = NormColor;
+            }
+        }
         Flip();
 
         Animator.SetBool("Run", horizontal != 0.0f);
