@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7839995f4b1d94a45aca99c406c7bd06
+guid: 0b29967c23300fb4494cce5348b60688
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_idle (1)_0
+      name: Veil Idle Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
-        width: 60
-        height: 54
+        x: 30
+        y: 49
+        width: 387
+        height: 724
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90a959965d431c4f9573f1a83ad1582
-      internalID: 890450171
+      spriteID: 156145952c11105418aa22ede43818d5
+      internalID: 880311268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle (1)_1
+      name: Veil Idle Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 0
-        width: 60
-        height: 54
+        x: 472
+        y: 49
+        width: 393
+        height: 703
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565be9da44532ac4fad9dd0c03dc4e6d
-      internalID: 1304315654
+      spriteID: 1997a937310c6f24188c9f6b97f928c4
+      internalID: 1982855282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle (1)_2
+      name: Veil Idle Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 60
-        height: 54
+        x: 930
+        y: 49
+        width: 394
+        height: 684
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 695dca1494ff47c458b7b5980bfbec9d
-      internalID: 1913499302
+      spriteID: 89b6fb67a698e234d9ae11a7dd3b4a6a
+      internalID: 591380630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle (1)_3
+      name: Veil Idle Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 0
-        width: 60
-        height: 54
+        x: 1352
+        y: 49
+        width: 392
+        height: 703
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2e980ac28fde44f9bcdcb23094de31
-      internalID: -656366406
+      spriteID: 32979fc44785db2448fa9a3dc93b4ac4
+      internalID: 792648555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle (1)_4
+      name: Veil Idle Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 327
-        y: 0
-        width: 60
-        height: 54
+        x: 1789
+        y: 49
+        width: 388
+        height: 724
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb087af78ff9a04194ffe12dd00b2fe
-      internalID: -409376279
+      spriteID: ff6183190ecd29241a740bc80369044c
+      internalID: 333212270
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_idle (1)_0: 890450171
-      character_idle (1)_1: 1304315654
-      character_idle (1)_2: 1913499302
-      character_idle (1)_3: -656366406
-      character_idle (1)_4: -409376279
+      Veil Idle Sprite Sheet_0: 880311268
+      Veil Idle Sprite Sheet_1: 1982855282
+      Veil Idle Sprite Sheet_2: 591380630
+      Veil Idle Sprite Sheet_3: 792648555
+      Veil Idle Sprite Sheet_4: 333212270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
