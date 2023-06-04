@@ -10,7 +10,9 @@ public class MovimientoProtagonista : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
-
+    public Color InviColor;
+    public Color NormColor;
+    private SpriteRenderer rend;
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 24f;
@@ -68,6 +70,20 @@ public class MovimientoProtagonista : MonoBehaviour
         else
         {
             Animator.SetBool("Bull", false);
+        }
+        /////////////////////////////////
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.gameObject.tag = "Invi";
+            rend = GetComponent<SpriteRenderer>();
+            rend.color = InviColor;
+            
+
+        }
+        else
+        {
+            rend = GetComponent<SpriteRenderer>();
+            rend.color = NormColor;
         }
 
         Flip();
