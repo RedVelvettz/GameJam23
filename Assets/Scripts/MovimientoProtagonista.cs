@@ -21,6 +21,7 @@ public class MovimientoProtagonista : MonoBehaviour
     private Animator Animator;
     public GameObject barra;
     public float vidarequi;
+    float radiusLimit;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -30,7 +31,8 @@ public class MovimientoProtagonista : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
-        
+        radiusLimit = gameObject.GetComponent<CircleCollider2D>().radius + 7.9f;
+
     }
 
     private void Update()
@@ -95,26 +97,34 @@ public class MovimientoProtagonista : MonoBehaviour
         }
         }
         /////////////////////////////
-        if (vidarequi > 99)
+        if (vidarequi >90)
         {
-            if (Input.GetKey(KeyCode.Q))
+            if (Input.GetKey(KeyCode.R))
             {
-                transform.gameObject.tag = "Invi";
-                rend = GetComponent<SpriteRenderer>();
-                rend.color = InviColor;
-
+                Animator.SetBool("Pollo", true);
+                //print("Radio = "+ radiusLimit);
+                if (gameObject.GetComponent<CircleCollider2D>().radius <= radiusLimit)
+                {
+                    gameObject.GetComponent<CircleCollider2D>().radius += 0.1f;
+                }
 
             }
             else
             {
-                rend = GetComponent<SpriteRenderer>();
-                rend.color = NormColor;
+                Animator.SetBool("Pollo", false);
             }
         }
         Flip();
 
         Animator.SetBool("Run", horizontal != 0.0f);
         
+    }
+    private void OnTriggerEnter2D(Collider2D collisioner)
+    {
+        if (collisioner.gameObject.tag == "yellowenemy")
+        {
+            print("Enemigo Amarillo Afectado");
+        }
     }
 
     private void FixedUpdate()

@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: a4f9e2b1dbf6de240a050b89f801c6a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 36
+        width: 458
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3736a711eb0deb446baa51b27ab3c0c9
+      internalID: 1983995808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 37
+        width: 548
+        height: 817
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb9f471ce307b4c8ac05285c5700cd
+      internalID: -144336775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 36
+        width: 749
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b37a6aada8bbc4fb34024fc4167fbd
+      internalID: 1590954327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 36
+        width: 809
+        height: 928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5891908ac6b51ab498489cb089a7987f
+      internalID: 1656668888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 263
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca02da0a4fccd9a49baebf51b4bbd619
+      internalID: 2079202838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 36
+        width: 298
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9ace9e50e5de498ee10591d8786d7
+      internalID: -806485164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 36
+        width: 297
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725c711f25892f74fb4871d53ccde215
+      internalID: -488715807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 36
+        width: 265
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a392c8e24e658040b17e1ee5a6b2af3
+      internalID: -145842246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rooster Sprite Sheet_0: 347432266
+      Rooster Sprite Sheet_1: -378570888
+      Rooster Sprite Sheet_10: -538769668
+      Rooster Sprite Sheet_11: -2025210292
+      Rooster Sprite Sheet_12: 1983995808
+      Rooster Sprite Sheet_13: -144336775
+      Rooster Sprite Sheet_14: -385753045
+      Rooster Sprite Sheet_15: 1590954327
+      Rooster Sprite Sheet_16: -962729936
+      Rooster Sprite Sheet_17: 1656668888
+      Rooster Sprite Sheet_18: 478140159
+      Rooster Sprite Sheet_19: -902779442
+      Rooster Sprite Sheet_2: -1077229416
+      Rooster Sprite Sheet_20: 1407933504
+      Rooster Sprite Sheet_21: -868283103
+      Rooster Sprite Sheet_22: 1187154380
+      Rooster Sprite Sheet_23: 2029627338
+      Rooster Sprite Sheet_24: 2079202838
+      Rooster Sprite Sheet_25: -806485164
+      Rooster Sprite Sheet_26: 449892073
+      Rooster Sprite Sheet_27: -1488219356
+      Rooster Sprite Sheet_28: -488715807
+      Rooster Sprite Sheet_29: -145842246
+      Rooster Sprite Sheet_3: -605308292
+      Rooster Sprite Sheet_30: -1777205144
+      Rooster Sprite Sheet_31: 1450149900
+      Rooster Sprite Sheet_32: 615982434
+      Rooster Sprite Sheet_4: 901968210
+      Rooster Sprite Sheet_5: 2088986836
+      Rooster Sprite Sheet_6: 702538386
+      Rooster Sprite Sheet_7: -470719255
+      Rooster Sprite Sheet_8: 2124847779
+      Rooster Sprite Sheet_9: 732391106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
