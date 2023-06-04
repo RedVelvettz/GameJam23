@@ -8,6 +8,7 @@ public class Elevador : MonoBehaviour
     public Transform dowpos;
     public Transform upperpos;
     public Transform elevatorswitch;
+
     public float speed;
     bool iselevatordown;
    
@@ -22,12 +23,13 @@ public class Elevador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartElevator();
+       
     }
-    void StartElevator()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Vector2.Distance(player.position, elevatorswitch.position) < 0.5f && Input.GetKeyDown("f"))
+        if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("sube");
             if (transform.position.y <= dowpos.position.y)
             {
                 iselevatordown = true;
@@ -40,13 +42,12 @@ public class Elevador : MonoBehaviour
         }
         if (iselevatordown)
         {
-            transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed);
         }
         else
         {
-            transform.position = Vector2.MoveTowards(transform.position, dowpos.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, dowpos.position, speed);
         }
-
     }
 
 
