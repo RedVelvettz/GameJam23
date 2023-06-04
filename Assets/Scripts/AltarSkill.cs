@@ -6,9 +6,12 @@ public class AltarSkill : MonoBehaviour
 {
     int cont_skillr, cont_skillb, cont_skilly;
     bool newSkillCounter;
+    public GameObject barra;
+    //public CorruptedEnergyBar corruptedEnergyBar;
     void Start()
     {
         cont_skillr = 1;
+        //corruptedEnergyBar = GetComponent<CorruptedEnergyBar>();
     }
 
     void Update()
@@ -20,6 +23,10 @@ public class AltarSkill : MonoBehaviour
             print("Nueva habilidad obtenida EMBESTIDA");
             cont_skillr = 0;
             gameObject.SetActive(false);
+            barra.GetComponent<CorruptedEnergyBar>().actualLife = 40;
+            //corruptedEnergyBar.actualLife = 40;
+            
+            
         }
     }
 

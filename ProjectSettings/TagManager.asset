@@ -14,6 +14,7 @@ TagManager:
   - Invi
   - Teleporter
   - RedStatue
+  - energybar
   layers:
   - Default
   - TransparentFX
