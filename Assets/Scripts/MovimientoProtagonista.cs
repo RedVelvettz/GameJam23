@@ -39,6 +39,7 @@ public class MovimientoProtagonista : MonoBehaviour
         }
 
         horizontal = Input.GetAxisRaw("Horizontal");
+        transform.gameObject.tag = "Player";
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -59,8 +60,10 @@ public class MovimientoProtagonista : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E) && canDash)
         {
+            transform.gameObject.tag = "Bull";
             StartCoroutine(Dash());
             Animator.SetBool("Bull", true);
+
         }
         else
         {
