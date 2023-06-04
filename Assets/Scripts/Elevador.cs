@@ -4,51 +4,26 @@ using UnityEngine;
 
 public class Elevador : MonoBehaviour
 {
-    public Transform player;
-    public Transform dowpos;
-    public Transform upperpos;
-    public Transform elevatorswitch;
-
-    public float speed;
-    bool iselevatordown;
-   
-
-
-    // Start is called before the first frame update
-    void Start()
+    float changer;
+    private void Start()
     {
-
+        changer = 1f;
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       
+        gameObject.transform.Translate(0, changer * Time.deltaTime, 0);
     }
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collisioner)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collisioner.gameObject.tag == "starteleve")
         {
-            Debug.Log("sube");
-            if (transform.position.y <= dowpos.position.y)
-            {
-                iselevatordown = true;
-            }
-            else if (transform.position.y >= upperpos.position.y)
-            {
-                iselevatordown = false;
-            }
-
+            changer = 15f;
         }
-        if (iselevatordown)
+        if (collisioner.gameObject.tag == "finaleleve")
         {
-            transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed);
+            changer = -15f;
         }
-        else
-        {
-            transform.position = Vector2.MoveTowards(transform.position, dowpos.position, speed);
-        }
+        
     }
-
 
 }
