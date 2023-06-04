@@ -15,6 +15,7 @@ TagManager:
   - Teleporter
   - RedStatue
   - energybar
+  - yellowenemy
   layers:
   - Default
   - TransparentFX

@@ -97,7 +97,7 @@ public class MovimientoProtagonista : MonoBehaviour
         }
         }
         /////////////////////////////
-        if (vidarequi > 99)
+        if (vidarequi > 90)
         {
             if (Input.GetKey(KeyCode.R))
             {
