@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 15076081}
   - component: {fileID: 15076080}
   m_Layer: 6
-  m_Name: Square (7)
+  m_Name: Obstaculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &63014309
 GameObject:
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 63014311}
   - component: {fileID: 63014310}
   m_Layer: 6
-  m_Name: Square (6)
+  m_Name: CajasMovibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -431,13 +431,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63014309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.6, y: -4.35, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.066908, y: -1.1095288, z: -2.1169963}
   m_LocalScale: {x: 1.1792, y: 1.1792, z: 1.1792}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1057283499}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &244169794
 GameObject:
@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (4)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -587,7 +587,7 @@ Transform:
   - {fileID: 531616290}
   - {fileID: 1255361807}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -800,7 +800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (3)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 541573608}
   - component: {fileID: 541573607}
   m_Layer: 6
-  m_Name: Square (4)
+  m_Name: CajasMovibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1018,13 +1018,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541573606}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.66, y: 7.7, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 95.12691, y: 10.940471, z: -2.1169963}
   m_LocalScale: {x: 1.1792, y: 1.1792, z: 1.1792}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1057283499}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750885039
 GameObject:
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 750885041}
   - component: {fileID: 750885040}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Piedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1182,7 +1182,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860023557
 GameObject:
@@ -1200,7 +1200,7 @@ GameObject:
   - component: {fileID: 860023564}
   - component: {fileID: 860023565}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,7 +1561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (5)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -1629,6 +1629,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
   m_PrefabInstance: {fileID: 1023713017}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1057283498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057283499}
+  m_Layer: 0
+  m_Name: CajasMovibles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1057283499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057283498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.4669075, y: -3.2404711, z: 2.1169963}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 541573610}
+  - {fileID: 1881446886}
+  - {fileID: 63014313}
+  - {fileID: 1076091245}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076091241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1677,7 @@ GameObject:
   - component: {fileID: 1076091243}
   - component: {fileID: 1076091242}
   m_Layer: 6
-  m_Name: Square
+  m_Name: CajasMovibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1779,13 +1814,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076091241}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.49, y: -4.22, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.9769075, y: -0.97952867, z: -2.1169963}
   m_LocalScale: {x: 1.1792, y: 1.1792, z: 1.1792}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1057283499}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1196826639
 PrefabInstance:
@@ -1805,7 +1840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (6)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -1891,7 +1926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (1)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -2120,7 +2155,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703069932
 GameObject:
@@ -102277,7 +102312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025095573678535589, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_Name
-      value: Door (2)
+      value: Puertas
       objectReference: {fileID: 0}
     - target: {fileID: 7032127134926944489, guid: 7b7c95d0e67343b419c3e3796f82fa66, type: 3}
       propertyPath: m_RootOrder
@@ -102353,7 +102388,7 @@ GameObject:
   - component: {fileID: 1775120758}
   - component: {fileID: 1775120757}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: Piedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102496,7 +102531,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1881446882
 GameObject:
@@ -102511,7 +102546,7 @@ GameObject:
   - component: {fileID: 1881446884}
   - component: {fileID: 1881446883}
   m_Layer: 6
-  m_Name: Square(5)
+  m_Name: CajasMovibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102648,13 +102683,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881446882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.1, y: -4.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 94.56691, y: -0.9595287, z: -2.1169963}
   m_LocalScale: {x: 1.1792, y: 1.1792, z: 1.1792}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1057283499}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084559644
 GameObject:
@@ -102706,7 +102741,7 @@ GameObject:
   - component: {fileID: 2138452550}
   - component: {fileID: 2138452549}
   m_Layer: 6
-  m_Name: Square (3)
+  m_Name: Obstaculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102849,5 +102884,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
