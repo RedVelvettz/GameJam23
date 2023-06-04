@@ -19,7 +19,8 @@ public class MovimientoProtagonista : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
     private Animator Animator;
-
+    public GameObject barra;
+    public float vidarequi;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -29,12 +30,14 @@ public class MovimientoProtagonista : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
-
+        
     }
 
     private void Update()
     {
         
+
+
         if (isDashing)
         {
             return;
@@ -59,20 +62,25 @@ public class MovimientoProtagonista : MonoBehaviour
             
         }
      
-
-        if (Input.GetKeyDown(KeyCode.E) && canDash)
+        if(vidarequi > 39)
         {
-            transform.gameObject.tag = "Bull";
-            StartCoroutine(Dash());
-            Animator.SetBool("Bull", true);
+            if (Input.GetKeyDown(KeyCode.E) && canDash)
+            {
+                transform.gameObject.tag = "Bull";
+                StartCoroutine(Dash());
+                Animator.SetBool("Bull", true);
 
+            }
+            else
+            {
+                Animator.SetBool("Bull", false);
+            }
         }
-        else
-        {
-            Animator.SetBool("Bull", false);
-        }
+
         /////////////////////////////////
-        if (Input.GetKey(KeyCode.Q))
+        if (vidarequi > 69)
+        {
+            if (Input.GetKey(KeyCode.Q))
         {
             transform.gameObject.tag = "Invi";
             rend = GetComponent<SpriteRenderer>();
@@ -85,7 +93,24 @@ public class MovimientoProtagonista : MonoBehaviour
             rend = GetComponent<SpriteRenderer>();
             rend.color = NormColor;
         }
+        }
+        /////////////////////////////
+        if (vidarequi > 99)
+        {
+            if (Input.GetKey(KeyCode.Q))
+            {
+                transform.gameObject.tag = "Invi";
+                rend = GetComponent<SpriteRenderer>();
+                rend.color = InviColor;
 
+
+            }
+            else
+            {
+                rend = GetComponent<SpriteRenderer>();
+                rend.color = NormColor;
+            }
+        }
         Flip();
 
         Animator.SetBool("Run", horizontal != 0.0f);
