@@ -6,7 +6,7 @@ public class SecondEnemy : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Invi")
+        if (collision.gameObject.tag == "nvi")
         {
             Debug.Log("Rompete");
             Destroy(gameObject);
