@@ -19,7 +19,7 @@ public class Elevador : MonoBehaviour
         {
             changer = 10f;
         }
-        if (collisioner.gameObject.tag == "finaleleve") 
+        if (collisioner.gameObject.tag == "finaleleve")
         {
             changer = -10f;
         }
