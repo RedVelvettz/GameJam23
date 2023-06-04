@@ -10,7 +10,9 @@ public class MovimientoProtagonista : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
-
+    public Color Colorinvi;
+    public Color Normal;
+    public SpriteRenderer rend;
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 24f;
@@ -63,12 +65,32 @@ public class MovimientoProtagonista : MonoBehaviour
             transform.gameObject.tag = "Bull";
             StartCoroutine(Dash());
             Animator.SetBool("Bull", true);
+            rend = GetComponent<SpriteRenderer>();
+            rend.color = Normal;
 
         }
         else
         {
             Animator.SetBool("Bull", false);
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.gameObject.tag = "Invi";
+            rend = GetComponent<SpriteRenderer>();
+            rend.color = Colorinvi;
+            
+
+        }
+        else
+        {
+            rend = GetComponent<SpriteRenderer>();
+            rend.color = Normal;
+
+        }
+
+
+
 
         Flip();
 
@@ -102,6 +124,10 @@ public class MovimientoProtagonista : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// //////////////////////////// HABILIDAD 1 
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator Dash()
     {
         canDash = false;
@@ -117,5 +143,6 @@ public class MovimientoProtagonista : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-
+    /// //////////////////////////// HABILIDAD 2
+    
 }
