@@ -97,11 +97,11 @@ public class MovimientoProtagonista : MonoBehaviour
         }
         }
         /////////////////////////////
-        if (vidarequi > 90)
+        if (vidarequi >90)
         {
             if (Input.GetKey(KeyCode.R))
             {
-
+                Animator.SetBool("Pollo", true);
                 //print("Radio = "+ radiusLimit);
                 if (gameObject.GetComponent<CircleCollider2D>().radius <= radiusLimit)
                 {
@@ -111,7 +111,7 @@ public class MovimientoProtagonista : MonoBehaviour
             }
             else
             {
-                
+                Animator.SetBool("Pollo", false);
             }
         }
         Flip();
