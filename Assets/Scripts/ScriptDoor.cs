@@ -6,7 +6,7 @@ public class ScriptDoor : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Bull")
+        if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Rompete");
             Destroy(gameObject);
