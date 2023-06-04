@@ -10,7 +10,7 @@ public class Elevador : MonoBehaviour
     public Transform elevatorswitch;
     public float speed;
     bool iselevatordown;
-    public SpriteRenderer elevator;
+   
 
 
     // Start is called before the first frame update
@@ -49,16 +49,5 @@ public class Elevador : MonoBehaviour
 
     }
 
-    void DisplayColor()
 
-    {
-        if (transform.position.y <= dowpos.position.y || transform.position.y >= upperpos.position.y)
-        {
-            elevator.color = Color.green;
-        }
-        else
-        {
-            elevator.color = Color.red;
-        }
-    }
 }
